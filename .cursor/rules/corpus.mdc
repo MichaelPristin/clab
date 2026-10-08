@@ -1,0 +1,10 @@
+---
+description: AMI subsample corpus workflow
+globs: data/**
+alwaysApply: false
+---
+
+# Corpus workflow
+
+Use the bundled entry point for statistics: `python3 stats.py data/`. It is part of this
+archive, has no external dependencies, and only reads `data/`.
